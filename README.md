@@ -52,7 +52,9 @@ Initialize the Spring Boot application server:
 Once the application server has successfully initialized, the application and telemetry dashboard can be accessed via a standard web browser at:
 `http://localhost:8080`
 
+## Snapshot 
+http://localhost:3000/dashboard/snapshot/gGiniBQxKu9gXROvg6kvxBOsUBKjv4hH?orgId=1&from=2026-04-06T08:26:04.469Z&to=2026-04-06T08:31:04.469Z&timezone=browser&refresh=5s
+
 ## Project Context
-Author: Irfan
-Institution: Universiti Kuala Lumpur Malaysian Institute of Information Technology (UniKL MIIT)
-Description: Developed as a Final Year Project fulfilling university requirements.
+Author: Mohamad Irfan Danish Bin Azani
+
