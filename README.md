@@ -24,40 +24,35 @@ Ensure the following dependencies are installed prior to deployment:
 
 ## Installation and Setup Instructions
 
-1. Clone the Repository
+### 1. Clone the Repository
 Execute the following command to pull the source code to your local machine:
-```bash
-git clone [https://github.com/yourusername/net-track-inventory.git](https://github.com/yourusername/net-track-inventory.git)
 
-Navigate to the Directory
+    git clone https://github.com/yourusername/net-track-inventory.git
 
-Bash
-cd net-track-inventory
-Environment Configuration
+### 2. Navigate to the Directory
+
+    cd net-track-inventory
+
+### 3. Environment Configuration
 Verify and update the database connection strings and environment variables located in the properties file:
 
-Plaintext
-src/main/resources/application.properties
-Build the Project
+    src/main/resources/application.properties
+
+### 4. Build the Project
 Resolve all Maven dependencies and compile the project using the wrapper:
 
-Bash
-./mvnw clean install
-Execute the Application
+    ./mvnw clean install
+
+### 5. Execute the Application
 Initialize the Spring Boot application server:
 
-Bash
-./mvnw spring-boot:run
-System Access
+    ./mvnw spring-boot:run
+
+## System Access
 Once the application server has successfully initialized, the application and telemetry dashboard can be accessed via a standard web browser at:
-http://localhost:8080
+`http://localhost:8080`
 
-Project Context
-Author: Irfan Danish
-
-Once you have saved the file, run these commands in your terminal to commit the changes:
-
-```bash
-git add README.md
-git commit -m "docs: implement comprehensive project documentation"
-git push
+## Project Context
+Author: Irfan
+Institution: Universiti Kuala Lumpur Malaysian Institute of Information Technology (UniKL MIIT)
+Description: Developed as a Final Year Project fulfilling university requirements.
